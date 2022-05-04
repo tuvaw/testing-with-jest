@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Labb 5",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuvaw/testing-with-jest.git"
+  },
+  "author": "Tuva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuvaw/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/tuvaw/testing-with-jest#readme"
+}
