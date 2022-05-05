@@ -21,5 +21,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 // Eget test - fail
 test('Peek on stack with element returns definied', () => {
     stack.push(1);
-    expect(stack.peek()).toBeUndefined();
+    expect(stack.peek()).toBeDefined();
 })
