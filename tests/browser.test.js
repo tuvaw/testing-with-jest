@@ -33,7 +33,7 @@ describe('Clicking "Pusha till stacken"', () => {
 	});
 });
 
-// Eget test - fail
+// Eget test - pass
 test('Checks if there are three buttons on the website', async () => {
     await driver.findElement(By.name('peek'));
     await driver.findElement(By.name('pop'));
