@@ -37,5 +37,5 @@ describe('Clicking "Pusha till stacken"', () => {
 test('Checks if there are three buttons on the website', async () => {
     await driver.findElement(By.name('peek'));
     await driver.findElement(By.name('pop'));
-    await driver.findElement(By.name('hello'));
+    await driver.findElement(By.name('push'));
 });
